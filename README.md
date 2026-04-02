@@ -44,8 +44,8 @@ Desenvolvimento de uma aplicação Web utilizando **Java** no back-end para digi
 |   Sprint    | Início |  Fim  | Documentação | Status | 
 | :---------: | :----: | :---: | :----------: | :----: |
 | 🔖 Sprint 1 | 16/03  | 05/04 |  [Sprint 1](./Documentacao/Processo/Sprints/Sprint1/README.md)            |  Em Andamento ⚙️  |
-| 🔖 Sprint 2 | 13/04  | 03/05 |   [Sprint 2](./Documentacao/Processo/Sprints/Sprint1/README.md)           |  Planejada 📅      |
-| 🔖 Sprint 3 | 11/05  | 31/05 |   [Sprint 3](./Documentacao/Processo/Sprints/Sprint1/README.md)            |  Planejada 📅     |
+| 🔖 Sprint 2 | 13/04  | 03/05 |   [Sprint 2](./Documentacao/Processo/Sprints/Sprint2/README.md)           |  Planejada 📅      |
+| 🔖 Sprint 3 | 11/05  | 31/05 |   [Sprint 3](./Documentacao/Processo/Sprints/Sprint3/README.md)            |  Planejada 📅     |
 
 ---
 ## 💻 Tecnologias <a id="tecnologias"></a>
