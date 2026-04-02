@@ -25,7 +25,7 @@ Expandir o ecossistema do sistema garantindo a gestão da frota e dos usuários.
 Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (Definition of Done)** específicos.
 
 ### **US03 - Gestão de Viaturas**
-> **Como administrador, desejo cadastrar viaturas para manter a frota atualizada no sistema.**
+> **Como administrador, quero cadastrar viaturas para manter a frota atualizada no sistema.**
 
 * **Prioridade:** Alta | **Estimativa:** 13h | **Status:** 📅
 * **DoD (Critérios de Sucesso):**
@@ -34,7 +34,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
     * Persistência dos dados no **Supabase** garantindo que o Prefixo seja único.
 
 ### **US04 - Gestão de Técnicos**
-> **Como administrador, desejo cadastrar técnicos para que eles possam acessar o sistema e realizar apontamentos.**
+> **Como administrador, quero cadastrar técnicos para que eles possam acessar o sistema e realizar apontamentos.**
 
 * **Prioridade:** Alta | **Estimativa:** 8h | **Status:** 📅
 * **DoD (Critérios de Sucesso):**
@@ -43,7 +43,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
     * Lista de técnicos ativos disponível para seleção no formulário de jornada.
 
 ### **US05 - Validação de Integridade (KM)**
-> **Como administrador, desejo validar a quilometragem inserida para garantir a integridade dos dados.**
+> **Como administrador, quero validar a quilometragem inserida para garantir a integridade dos dados.**
 
 * **Prioridade:** Alta | **Estimativa:** 13h | **Status:** 📅
 * **DoD (Critérios de Sucesso):**
@@ -52,7 +52,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
     * Log de erros para tentativas de inserção inválidas.
 
 ### **US06 - Dashboard de Consumo Médio**
-> **Como administrador, desejo visualizar um Dashboard de consumo para monitorar a eficiência da frota.**
+> **Como administrador, quero visualizar um Dashboard de consumo para monitorar a eficiência da frota.**
 
 * **Prioridade:** Média | **Estimativa:** 20h | **Status:** 📅
 * **DoD (Critérios de Sucesso):**

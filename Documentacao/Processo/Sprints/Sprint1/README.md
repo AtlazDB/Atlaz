@@ -25,7 +25,7 @@ Estabelecer o fluxo funcional de entrada e saída de dados de abastecimento. Iss
 Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (Definition of Done)**, que são os critérios específicos para considerar cada funcionalidade concluída.
 
 ### **US01 - Registro de Jornada e Abastecimento**
-> **Como técnico, desejo registrar o uso diário da viatura e eventuais abastecimentos para digitalizar o Boletim de Tráfego manual.**
+> **Como técnico, quero registrar um abastecimento para digitalizar as informações da planilha física.**
 
 * **Prioridade:** Alta
 * **Estimativa:** 13h
@@ -40,7 +40,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
 ---
 
 ### **US02 - Exportação SGI**
-> **Como administrador, desejo exportar os dados mensais para facilitar o input manual no sistema SGI.**
+> **Como administrador, quero exportar os dados mensais para facilitar o input manual no sistema SGI.**
 
 * **Prioridade:** Alta
 * **Estimativa:** 20h

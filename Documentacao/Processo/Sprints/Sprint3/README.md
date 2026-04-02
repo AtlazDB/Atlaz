@@ -25,7 +25,7 @@ Finalizar o ecossistema do projeto com foco em segurança e governança de dados
 Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (Definition of Done)** específicos.
 
 ### **US07 - Histórico Administrativo**
-> **Como administrador, desejo visualizar o histórico de abastecimentos para conferência de dados.**
+> **Como administrador, quero visualizar o histórico de abastecimentos para conferência de dados.**
 
 * **Prioridade:** Média | **Estimativa:** 8h | **Status:** 📅
 * **DoD (Critérios de Sucesso):**
@@ -34,7 +34,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
     * Visualização detalhada de cada registro (Km, litros, valor e nota fiscal).
 
 ### **US08 - Autogestão do Técnico**
-> **Como técnico, desejo visualizar e editar os registros realizados por mim para correção de eventuais erros.**
+> **Como técnico, quero visualizar e editar os registros de abastecimentos realizados por mim.**
 
 * **Prioridade:** Média | **Estimativa:** 13h | **Status:** 📅
 * **DoD (Critérios de Sucesso):**
@@ -43,7 +43,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
     * Garantia de que um técnico não consiga visualizar ou alterar dados de outros colegas.
 
 ### **US09 - Análise por Categoria de Frota**
-> **Como administrador, desejo filtrar os gastos por tipo de veículo (Utilitário vs Passeio) para análise de custos.**
+> **Como administrador, quero filtrar os gastos por tipo de veículo (Utilitário vs Passeio) para análise de custos.**
 
 * **Prioridade:** Baixa | **Estimativa:** 13h | **Status:** 📅
 * **DoD (Critérios de Sucesso):**
@@ -52,7 +52,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
     * Relatório de exportação refletindo a categoria do veículo para o SGI.
 
 ### **US10 - Alertas de Manutenção Preventiva**
-> **Como administrador, desejo receber notificações referente a manutenções preventivas de viaturas.**
+> **Como administrador, quero receber notificações referente a manutenções preventivas de viaturas.**
 
 * **Prioridade:** Baixa | **Estimativa:** 13h | **Status:** 📅
 * **DoD (Critérios de Sucesso):**
