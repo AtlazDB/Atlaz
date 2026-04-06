@@ -11,7 +11,7 @@
   <a href ="#dor">DoR</a>  |
 </p>
 
-> Status da Sprint: Em Andamento ⏳
+> Status da Sprint: Sprint Review
 
 ---
 
@@ -20,6 +20,21 @@ Estabelecer o fluxo funcional de entrada e saída de dados de abastecimento. Iss
 
 ---
 
+
+
+| Capacidade estimada da Equipe por Sprint:               | 45                                                         |
+| ------------------------------------------------------- | ---------------------------------------------------------- |
+| Meta da Sprint:                                         | User Stories de rank 1 e rank 2 (Total de 33 Story Points) |
+| Previsão da Sprint (extras, sem compromisso de entrega) | —                                                          |
+
+
+| Rank | Prioridade | User Story                                                                                         | Estimativa | Sprint |
+| ---- | ---------- | -------------------------------------------------------------------------------------------------- | ---------- | ------ |
+| 1    | Alta       | Como técnico, quero registrar um abastecimento para digitalizar as informações da planilha física. | 13         | 1      |
+| 2    | Alta       | Como administrador, quero exportar os dados mensais para facilitar o input manual no sistema SGI.  | 20         | 1      |
+
+
+---
 ## 📋 User Stories & DoD <a id="us"></a>
 
 Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (Definition of Done)**, que são os critérios específicos para considerar cada funcionalidade concluída.
@@ -34,7 +49,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
     * Interface em **Vue.js** com os campos obrigatórios do SGI: Motivo, Requisitante, Destino, Hodômetro (Saída/Chegada) e Horários.
     * Campos específicos para Abastecimento (Opcionais): Litros, Valor Total e Nº da Nota Fiscal.
     * Regra de Negócio: Cálculo automático de "KM Rodados" e validação para impedir Hodômetro de chegada menor que o de saída.
-    * Integração: Persistência no **Supabase** via API Java/Spring Boot conectando os dados ao Prefixo da viatura.
+    * Integração: Persistência no **Docker** via API Java/Spring Boot conectando os dados ao Prefixo da viatura.
     * Feedback visual ao usuário e opção de anexar foto da NF (se houver).
 
 ---
@@ -58,7 +73,7 @@ Estes critérios garantem que o time tem todos os insumos necessários para inic
 
 * **Clareza**: User Stories escritas com objetivos de negócio e critérios de aceitação básicos definidos.
 * **Modelagem**: Estrutura das tabelas de `abastecimento` e `viaturas` configuradas no banco de dados.
-* **Integração**: Ambiente Java/Spring Boot e conexão com Supabase devidamente configurados.
+* **Integração**: Ambiente Java/Spring Boot e Container Docker devidamente configurados.
 * **Design**: Protótipo de baixa ou média fidelidade da tela de lançamento validado no **Figma**.
 * **Requisitos SGI**: Definição clara do layout de colunas necessário para a exportação de dados.
 
@@ -69,3 +84,9 @@ Para o fechamento da Sprint 1, a equipe deve atender aos seguintes requisitos ge
 * Pull Requests revisados e aprovados seguindo o fluxo do **GitHub Flow**.
 * Integração contínua: Código consolidado na branch `main` sem quebras de build.
 * Documentação técnica: README da sprint atualizado com o status final das entregas.
+  
+  
+---
+# BurndownChart
+
+<img width="1391" height="682" alt="image" src="https://github.com/user-attachments/assets/9dfabdff-f071-4d19-a968-6689f892cfd2" />
