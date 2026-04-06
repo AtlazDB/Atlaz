@@ -90,3 +90,12 @@ Para o fechamento da Sprint 1, a equipe deve atender aos seguintes requisitos ge
 # BurndownChart
 
 <img width="1391" height="682" alt="image" src="https://github.com/user-attachments/assets/9dfabdff-f071-4d19-a968-6689f892cfd2" />
+
+--- 
+
+# 🎥 Demonstração da aplicação
+
+> Clique na imagem abaixo para assistir ao vídeo no YouTube.
+
+[![Vídeo da aplicação](https://img.youtube.com/vi/MP2xFfE2Bcs/maxresdefault.jpg)](https://www.youtube.com/watch?v=MP2xFfE2Bcs)
+
