@@ -26,8 +26,8 @@ Desenvolvimento de uma aplicação Web utilizando **Java** no back-end para digi
 
 | ID | Prioridade | User Story | Est. (h) | Sprint | Status |
 | :--: | :---: | --- | :---: | :---: | :---: |
-| **US01** | Alta | Como técnico, quero registrar um abastecimento para digitalizar as informações da planilha física. | 13 | 1 | ⚙️ |
-| **US02** | Alta | Como administrador, quero exportar os dados mensais para facilitar o input manual no sistema SGI. | 20 | 1 | ⚙️ |
+| **US01** | Alta | Como técnico, quero registrar um abastecimento para digitalizar as informações da planilha física. | 13 | 1 | ✅ |
+| **US02** | Alta | Como administrador, quero exportar os dados mensais para facilitar o input manual no sistema SGI. | 20 | 1 | ✅ |
 | **US03** | Alta | Como administrador, quero cadastrar viaturas para manter a frota atualizada no sistema. | 13 | 2 | 📅 |
 | **US04** | Alta | Como administrador, quero cadastrar técnicos para que eles possam acessar o sistema e realizar apontamentos. | 8 | 2 | 📅 |
 | **US05** | Alta | Como administrador, quero validar a quilometragem inserida para garantir a integridade dos dados. | 13 | 2 | 📅 |
@@ -59,10 +59,20 @@ Desenvolvimento de uma aplicação Web utilizando **Java** no back-end para digi
   <a href="https://www.jetbrains.com/idea/"><img src="https://img.shields.io/badge/IntelliJ_IDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white"/></a>
   <a href="https://trello.com/"><img src="https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white"/></a>
   <a href="https://github.com/"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/></a>
+  <a href="https://www.docker.com/"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/></a>
 </h4>
 
-## 🏛️ Estrutura do Projeto <a id="estrutura"></a>
-Em Construção.
+## 🏛️ Estrutura do Repositório <a id="estrutura"></a>
+
+- **`backend/`**: API REST desenvolvida em Java responsável pelo
+	gerenciamento das regras de negócio, persistência de dados e
+	integração com o banco de dados. Contém os endpoints para
+	cadastro de viaturas, técnicos, registros de abastecimento, exportação
+	de dados e indicadores de consumo.
+- **`frontend/`**: Interface web desenvolvida em Vue.js para registro 
+	e visualização das informações de abastecimento.
+- **`Documentacao/`**: Documentação técnica e relatórios de progresso do
+  projeto
 
 ## 📂 Documentação <a id="docs"></a>
 
