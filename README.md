@@ -26,7 +26,7 @@ Desenvolvimento de uma aplicação Web utilizando **Java** no back-end para digi
 
 | ID | Prioridade | User Story | Est. (h) | Sprint | Status |
 | :--: | :---: | --- | :---: | :---: | :---: |
-| **US01** | Alta | Como técnico, quero registrar um abastecimento para digitalizar as informações da planilha física. | 13 | 1 | ✅ |
+| **US01** | Alta | Como técnico, quero registrar um deslocamento/abastecimento para digitalizar as informações da planilha física. | 13 | 1 | ✅ |
 | **US02** | Alta | Como administrador, quero exportar os dados mensais para facilitar o input manual no sistema SGI. | 20 | 1 | ✅ |
 | **US03** | Alta | Como administrador, quero cadastrar viaturas para manter a frota atualizada no sistema. | 8 | 2 | 📅 |
 | **US04** | Alta | Como administrador, quero cadastrar técnicos para que eles possam acessar o sistema e realizar apontamentos. | 13 | 2 | 📅 |
