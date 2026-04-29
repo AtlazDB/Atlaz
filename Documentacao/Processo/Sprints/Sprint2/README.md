@@ -11,7 +11,7 @@
   <a href ="#dor">DoR</a>  |
 </p>
 
-> Status da Sprint: Planejada 📅
+> Status da Sprint: Em Andamento ⚙️
 
 ---
 
@@ -27,7 +27,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
 ### **US03 - Gestão de Viaturas**
 > **Como administrador, quero cadastrar viaturas para manter a frota atualizada no sistema.**
 
-* **Prioridade:** Alta | **Estimativa:** 13h | **Status:** 📅
+* **Prioridade:** Alta | **Estimativa:** 13h | **Status:** ⚙️
 * **DoD (Critérios de Sucesso):**
     * Interface funcional para Cadastro/Edição/Listagem (CRUD) de veículos.
     * Campos obrigatórios conforme Boletim de Tráfego: Marca, Modelo, Ano, Placa, Prefixo e Tipo de Combustível.
@@ -36,7 +36,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
 ### **US04 - Gestão de Técnicos**
 > **Como administrador, quero cadastrar técnicos para que eles possam acessar o sistema e realizar apontamentos.**
 
-* **Prioridade:** Alta | **Estimativa:** 8h | **Status:** 📅
+* **Prioridade:** Alta | **Estimativa:** 8h | **Status:** ⚙️
 * **DoD (Critérios de Sucesso):**
     * Interface para cadastro de funcionários com Nome e Número da Carteira Funcional (conforme Boletim).
     * Vinculação do usuário ao perfil de "Técnico" para acesso restrito à tela de apontamento.
@@ -45,7 +45,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
 ### **US05 - Validação de Integridade (KM)**
 > **Como administrador, quero validar a quilometragem inserida para garantir a integridade dos dados.**
 
-* **Prioridade:** Alta | **Estimativa:** 13h | **Status:** 📅
+* **Prioridade:** Alta | **Estimativa:** 13h | **Status:** ⚙️
 * **DoD (Critérios de Sucesso):**
     * Regra de Backend: Bloqueio de inserção se o KM de Saída for menor que o último KM de Chegada registrado para aquela viatura.
     * Regra de Frontend: Exibição de alerta impeditivo caso o usuário tente finalizar com KM incoerente.
@@ -54,7 +54,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
 ### **US06 - Dashboard de Consumo Médio**
 > **Como administrador, quero visualizar um Dashboard de consumo para monitorar a eficiência da frota.**
 
-* **Prioridade:** Média | **Estimativa:** 20h | **Status:** 📅
+* **Prioridade:** Média | **Estimativa:** 20h | **Status:** ⚙️
 * **DoD (Critérios de Sucesso):**
     * Gráficos em tempo real utilizando os dados de Abastecimento (Litros) e KM Rodados.
     * Cálculo automático da média de consumo ($km/l$) por veículo e por período.
