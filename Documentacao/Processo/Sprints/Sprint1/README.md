@@ -11,7 +11,7 @@
   <a href ="#dor">DoR</a>  |
 </p>
 
-> Status da Sprint: Sprint Review
+> Status da Sprint: Concluída
 
 ---
 
@@ -44,7 +44,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
 
 * **Prioridade:** Alta
 * **Estimativa:** 13h
-* **Status:** ⚙️
+* **Status:** ✅
 * **DoD (Critérios de Sucesso):**
     * Interface em **Vue.js** com os campos obrigatórios do SGI: Motivo, Requisitante, Destino, Hodômetro (Saída/Chegada) e Horários.
     * Campos específicos para Abastecimento (Opcionais): Litros, Valor Total e Nº da Nota Fiscal.
@@ -59,7 +59,7 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
 
 * **Prioridade:** Alta
 * **Estimativa:** 20h
-* **Status:** ⚙️
+* **Status:** ✅
 * **DoD (Critérios de Sucesso):**
     * Interface administrativa contendo botão de exportação de dados.
     * Geração de relatório em formato compatível (CSV ou Excel) com os campos exigidos pelo SGI.
