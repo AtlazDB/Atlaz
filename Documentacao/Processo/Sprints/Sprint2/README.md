@@ -77,3 +77,51 @@ Para o fechamento da Sprint 2, a equipe deve garantir:
 * Pull Requests aprovados por membros da TechForce seguindo o **GitHub Flow**.
 * Código funcional integrado à branch `main`.
 * Documentação do README da Sprint atualizada com evidências dos novos cadastros e do Dashboard.
+
+---
+# BurndownChart
+
+<img width="1188" height="575" alt="image" src="https://github.com/user-attachments/assets/03a60854-bd60-4af5-8044-cd25d258cf94" />
+
+
+--- 
+
+# 🎥 Demonstração da aplicação
+
+> Clique na imagem abaixo para assistir ao vídeo no YouTube.
+
+[![Vídeo da aplicação](https://img.youtube.com/vi/rNZketvz7Ho/maxresdefault.jpg)](https://www.youtube.com/watch?v=rNZketvz7Ho)
+
+
+--- 
+## Tasks realizadas nessa sprint 🛠️
+
+### `[Back-End]`
+
+| Chave     | Task                                                                  | Responsável     | SP  | Status      |
+| --------- | --------------------------------------------------------------------- | --------------- | --- | ----------- |
+| TT - T1   | Refatorar nomes de classes, metodos e atributos do BackEnd para EN-US | João            | 3   | ✅ Concluído |
+| US03 - T2 | Criar DTO para Response de viatura                                    | Samuel          | 1   | ✅ Concluído |
+| US03 - T4 | Adicionar tipo de combustivel na tabela viatura                       | Gabriel Rocha   | 1   | ✅ Concluído |
+| US03 - T5 | Atualizar Request e Response de veiculo                               | Gabriel Rocha   | 1   | ✅ Concluído |
+| US03 - T7 | Criar Migration atualizando os status de usuario e viatura            | João            | 1   | ✅ Concluído |
+| US05 - T1 | Atualizar tabela viatura para receber KM atual                        | Gabriel Nunes   | 2   | ✅ Concluído |
+| US06 - T2 | Endpoint GET /api/dashboard/resumo                                    | Leandro         | 5   | ✅ Concluído |
+| US06 - T3 | DTO Response abastecimento                                            | Gabriel Rocha   | 2   | ✅ Concluído |
+| US06 - T4 | FIX - Corrigir exibição de dados no dashboard                         | Leandro         | 1   | ✅ Concluído |
+
+
+### `[Front-End]`
+
+| Chave     | Task                                              | Responsável     | SP  | Status      |
+| --------- | ------------------------------------------------- | --------------- | --- | ----------- |
+| US01 - T1 | Refatorar Telas de abastecimento                  | Maria           | 1   | ✅ Concluído |
+| US02 - T2 | Refatorar Formulário principal                    | Maria           | 1   | ✅ Concluído |
+| US03 - T1 | Tela de Viaturas cadastradas                      | Leonardo        | 2   | ✅ Concluído |
+| US03 - T3 | Tela para cadastro de viaturas                    | Ryan            | 1   | ✅ Concluído |
+| US03 - T6 | Integração das telas de viaturas com a API                                | Leandro         | 1   | ✅ Concluído |
+| US04 - T1 | Adaptar a tela principal com login                | Maria           | 5   | ✅ Concluído |
+| US04 - T2 | Tela de cadastro/exibição de tecnicos cadastrados | Gabriel Rocha   | 5   | ✅ Concluído |
+| US04 - T3 | Integração das telas de tecnico com API                                | Leandro         | 3   | ✅ Concluído |
+| US05 - T2 | Integração dos métodos de validação com API                           | Leandro         | 3   | ✅ Concluído |
+| US06 - T1 | Tela Dashboard do administrador                   | Gabriel Valente | 5   | ✅ Concluído |
