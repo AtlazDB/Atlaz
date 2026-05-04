@@ -20,33 +20,37 @@ Este projeto adota o modelo **GitHub Flow**, priorizando a simplicidade, integra
 
   - Nenhuma alteração é feita diretamente na `main`.
 
-  
 
-- [ ] **2. Branches de Desenvolvimento**
+- [ ] **2. Branch Intermediaria (`dev`)**
 
-  - Novas funcionalidades ou correções devem ser desenvolvidas em **branches curtas**, criadas a partir da `main`.
+- A branch `dev` é utilizada como ambiente intermediário de integração das funcionalidades.
+- Todas as novas funcionalidades e correções devem ser integradas primeiro na `dev`.
+- A branch `dev` pode conter funcionalidades em validação e não possui a mesma estabilidade da `main`.
+- Após validação e aprovação, as alterações da `dev` são promovidas para a `main` via Pull Request
+
+- [ ] **3. Branches de Desenvolvimento**
+
+  - Novas funcionalidades ou correções devem ser desenvolvidas em **branches curtas**, criadas a partir da `dev`.
 
   - Padrão de nomenclatura obrigatório:
 
-    - `feat/nome-da-feature`
+    - `feat/tag-user-storie`
 
-    - `fix/nome-do-bug`
+    - `fix/tag-user-storie`
 
-    - `refactor/nome-da-refatoracao`
+    - `refactor/tag-user-storie`
 
   
 
 - [ ] **3. Pull Requests (PRs)**
 
-  - Toda alteração deve ser integrada à `main` por meio de um **Pull Request**.
+  - Toda alteração deve ser integrada à `dev` por meio de um **Pull Request**.
 
   - O PR deve passar por revisão de código e aprovação de pelo menos um membro da equipe antes do merge.
 
-  - A branch deve estar atualizada com a `main` antes da integração final.
-
+  - A branch deve estar atualizada com a `dev` antes da integração final.
   
-
----
+  ---
 
   
 
