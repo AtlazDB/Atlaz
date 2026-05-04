@@ -62,16 +62,6 @@ Nesta seção, detalhamos as histórias de usuário e seus respectivos **DoD (De
 
 ---
 
-## 🏃‍ DoR - Definition of Ready (Sprint 2) <a id="dor"></a>
-Critérios necessários para iniciar o desenvolvimento:
-
-* **Regra de Negócio**: Lógica de cálculo de rendimento ($km/l$) validada com o cliente.
-* **Backend**: Estrutura de tabelas para `usuarios` e `veiculos` espelhada no Supabase.
-* **Frontend**: Biblioteca de gráficos (Chart.js ou similar) definida e integrada ao projeto Vue.js.
-* **Design**: Protótipo das telas de CRUD e Dashboard aprovado no Figma.
-
----
-
 ## 🏆 Critérios de Conclusão da Sprint
 Para o fechamento da Sprint 2, a equipe deve garantir:
 * Pull Requests aprovados por membros da TechForce seguindo o **GitHub Flow**.

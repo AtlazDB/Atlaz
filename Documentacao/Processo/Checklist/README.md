@@ -4,7 +4,7 @@ Para que uma User Story seja considerada pronta para o desenvolvimento, ela deve
 * **Critérios de Aceitação**: Devem estar detalhados para cada funcionalidade.
 * **Modelagem de Dados**: Entidades de Viaturas, Usuários e Abastecimento mapeadas para o banco de dados.
 * **Design**: Fluxo de telas desenhado e validado pela equipe.
-* **Priorização**: A tarefa deve estar devidamente atribuída a uma Sprint no backlog.
+* **Estimativa** de esforço atribuída via Planning Poker
 
 ## 🏆 DoD - Definition of Done <a id="dod"></a>
 
