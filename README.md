@@ -28,14 +28,14 @@ Desenvolvimento de uma aplicação Web utilizando **Java** no back-end para digi
 | :--: | :---: | --- | :---: | :---: | :---: |
 | **US01** | Alta | Como técnico, quero registrar um deslocamento/abastecimento para digitalizar as informações da planilha física. | 13 | 1 | ✅ |
 | **US02** | Alta | Como administrador, quero exportar os dados mensais para facilitar o input manual no sistema SGI. | 20 | 1 | ✅ |
-| **US03** | Alta | Como administrador, quero cadastrar viaturas para manter a frota atualizada no sistema. | 8 | 2 | ⚙️ |
-| **US04** | Alta | Como administrador, quero cadastrar técnicos para que eles possam acessar o sistema e realizar apontamentos. | 13 | 2 | ⚙️ |
-| **US05** | Alta | Como administrador, quero validar a quilometragem inserida para garantir a integridade dos dados. | 5 | 2 | ⚙️ |
-| **US06** | Média | Como administrador, quero visualizar um Dashboard de consumo para monitorar a eficiência da frota. | 13 | 2 | ⚙️ |
-| **US07** | Média | Como administrador, quero visualizar o histórico de abastecimentos para conferência de dados. | 8 | 3 | 📅 |
-| **US08** | Média | Como técnico, quero visualizar e editar os registros de abastecimentos realizados por mim. | 13 | 3 | 📅 |
-| **US09** | Baixa | Como administrador, quero filtrar os gastos por tipo de veículo (Utilitário vs Passeio) para análise de custos. | 13 | 3 | 📅 |
-| **US10** | Baixa | Como administrador, quero receber notificações referente a manutenções preventivas de viaturas. | 13 | 3 | 📅 |
+| **US03** | Alta | Como administrador, quero cadastrar viaturas para manter a frota atualizada no sistema. | 8 | 2 | ✅ |
+| **US04** | Alta | Como administrador, quero cadastrar técnicos para que eles possam acessar o sistema e realizar apontamentos. | 13 | 2 | ✅ |
+| **US05** | Alta | Como administrador, quero validar a quilometragem inserida para garantir a integridade dos dados. | 5 | 2 | ✅ |
+| **US06** | Média | Como administrador, quero visualizar um Dashboard de consumo para monitorar a eficiência da frota. | 13 | 2 | ✅ |
+| **US07** | Média | Como técnico, quero visualizar o histórico registros para conferência de dados. | 8 | 3 | ⚙️ |
+| **US08** | Média | Como administrador, quero visualizar e editar os registros de abastecimento/deslocamento. | 13 | 3 | ⚙️ |
+| **US09** | Baixa | Como administrador, quero filtrar os gastos por veículo e tecnico para análise de custos. | 13 | 3 | ⚙️ |
+| **US10** | Baixa | Como administrador, quero receber notificações referente a manutenções preventivas de viaturas. | 13 | 3 | ⚙️ |
 
 ---
 
@@ -44,8 +44,8 @@ Desenvolvimento de uma aplicação Web utilizando **Java** no back-end para digi
 |   Sprint    | Início |  Fim  | Documentação | Status | 
 | :---------: | :----: | :---: | :----------: | :----: |
 | 🔖 Sprint 1 | 16/03  | 05/04 |  [Sprint 1](./Documentacao/Processo/Sprints/Sprint1/README.md)            |  Concluida ✅  |
-| 🔖 Sprint 2 | 13/04  | 03/05 |   [Sprint 2](./Documentacao/Processo/Sprints/Sprint2/README.md)           |  Em Andamento ⚙️      |
-| 🔖 Sprint 3 | 11/05  | 31/05 |   [Sprint 3](./Documentacao/Processo/Sprints/Sprint3/README.md)            |  Planejada 📅     |
+| 🔖 Sprint 2 | 13/04  | 03/05 |   [Sprint 2](./Documentacao/Processo/Sprints/Sprint2/README.md)           |  Em Andamento ✅      |
+| 🔖 Sprint 3 | 11/05  | 31/05 |   [Sprint 3](./Documentacao/Processo/Sprints/Sprint3/README.md)            |  Planejada ⚙️     |
 
 ---
 ## 💻 Tecnologias <a id="tecnologias"></a>
